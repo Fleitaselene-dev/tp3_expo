@@ -11,9 +11,8 @@ export default function LoginScreen() {
     <View style={{  flex: 1,backgroundColor: "#ffe4ec", justifyContent: "center",alignItems: "center",padding: 20,}}>
       <Text style={{ fontSize: 28, marginBottom: 30, color: "#d63384", fontWeight: "bold", textAlign: 'center' }}>
      Iniciar Sesión </Text>
-      <TextInput placeholder="Usuario" placeholderTextColor="#b76fa7" value={usuario} onChangeText={setUsuario} style={{width: "100%",backgroundColor: "#fff", borderColor: "#f5c2e7", borderWidth: 1, borderRadius: 10,  padding: 12,  marginBottom: 15, fontSize: 16, color: "#d63384", }}/>
-      <TextInput placeholder="Contraseña" placeholderTextColor="#b76fa7" secureTextEntry  value={contrasenia} onChangeText={setContrasenia}
-        style={{ width: "100%", backgroundColor: "#fff", borderColor: "#f5c2e7", borderWidth: 1, borderRadius: 10,  padding: 12,  marginBottom: 25, fontSize: 16,  color: "#d63384",
+      <TextInput placeholder="Usuario" placeholderTextColor="#b76fa7" value={usuario} onChangeText={setUsuario} style={{width: 300,backgroundColor: "#fff", borderColor: "#f5c2e7", borderWidth: 1, borderRadius: 10,  padding: 12,  marginBottom: 15, fontSize: 16, color: "#d63384", }}/>
+      <TextInput placeholder="Contraseña" placeholderTextColor="#b76fa7" secureTextEntry  value={contrasenia} onChangeText={setContrasenia} style={{ width: 300, backgroundColor: "#fff", borderColor: "#f5c2e7", borderWidth: 1, borderRadius: 10,  padding: 12,  marginBottom: 25, fontSize: 16,  color: "#d63384",
         }}
       />
 
