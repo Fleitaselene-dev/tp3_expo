@@ -6,13 +6,18 @@ export const tableros =  [
     pines: [
       {
         id: '1-1',
-        texto: 'Improvisación expresiva',
+        texto: 'Escenario contemporaneo',
         imagen: require('@/assets/images/danza1.jpg'),
       },
       {
         id: '1-2',
-        texto: 'Escenario contemporáneo',
+        texto: 'Kazuha Leeserafim',
         imagen: require('@/assets/images/danza2.jpg'),
+      },
+       {
+        id: '1-3',
+        texto: 'Estiramiento ballet',
+        imagen: require('@/assets/images/danza3.jpg'),
       },
     ],
   },
@@ -23,13 +28,28 @@ export const tableros =  [
     pines: [
       {
         id: '2-1',
-        texto: 'Uñas con glitter',
+        texto: 'Uñas animal print rosa',
         imagen: require('@/assets/images/unas1.jpg'),
       },
       {
         id: '2-2',
         texto: 'Diseño minimalista rosa',
         imagen: require('@/assets/images/unas2.jpg'),
+      },
+       {
+        id: '2-3',
+        texto: 'Diseño balletCore rosa',
+        imagen: require('@/assets/images/unas3.jpg'),
+      },
+       {
+        id: '2-4',
+        texto: 'Uñas inspiradas estilo Frutilla',
+        imagen: require('@/assets/images/unas4.jpg'),
+      },
+       {
+        id: '2-5',
+        texto: 'Diseño minimalista rosa',
+        imagen: require('@/assets/images/unas5.jpg'),
       },
     ],
   },
@@ -40,13 +60,18 @@ export const tableros =  [
     pines: [
       {
         id: '3-1',
-        texto: 'Look urbano casual',
+        texto: 'Outfit comodo',
         imagen: require('@/assets/images/ropa1.jpg'),
       },
       {
         id: '3-2',
-        texto: 'Vestido fluido de verano',
+        texto: 'Outfit elegante -- Dark academy',
         imagen: require('@/assets/images/ropa2.jpg'),
+      },
+      {
+        id: '3-3',
+        texto: 'Vestido fluido de verano',
+        imagen: require('@/assets/images/ropa3.jpg'),
       },
     ],
   },
@@ -57,13 +82,18 @@ export const tableros =  [
     pines: [
       {
         id: '4-1',
-        texto: 'Cartera pequeña negra',
+        texto: 'Dior bag',
         imagen: require('@/assets/images/cartera1.jpg'),
       },
       {
         id: '4-2',
-        texto: 'Tote bag beige',
+        texto: 'Tote bag rosa',
         imagen: require('@/assets/images/cartera2.jpg'),
+      },
+       {
+        id: '4-3',
+        texto: 'Birkin bag style',
+        imagen: require('@/assets/images/cartera3.jpg'),
       },
     ],
   },
