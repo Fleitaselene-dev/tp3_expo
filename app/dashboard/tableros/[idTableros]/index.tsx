@@ -13,7 +13,7 @@ export default function TableroScreen() {
   }
 
   return (
-    <View style={{ flex: 1, padding: 16, gap: 18 }}>
+    <View style={{ flex: 1, backgroundColor: 'pink', padding: 16, gap: 18 }}>
       <Text style={{ fontSize: 22, fontWeight: 'bold', marginBottom: 12 }}>
         {tablero.titulo}
       </Text>

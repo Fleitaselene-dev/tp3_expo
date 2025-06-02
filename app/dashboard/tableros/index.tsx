@@ -6,7 +6,7 @@ export default function HomeScreen() {
   const router = useRouter();
 
   return (
-    <View style={{ flex: 5, padding: 20, marginBottom: 16, marginHorizontal: 4 }}>
+    <View style={{ flex: 5,  backgroundColor: 'pink',padding: 20, marginBottom: 16, marginHorizontal: 4 }}>
       <FlatList data={tableros} keyExtractor={(item) => item.id} numColumns={2} columnWrapperStyle={{ justifyContent: 'center', marginBottom: 16, gap: 18 }}
 renderItem={({ item }) => (
 <Pressable

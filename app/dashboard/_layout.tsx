@@ -14,6 +14,7 @@ export default function DashboardLayout() {
       <Tabs.Screen name="perfil" options={{ title: "Perfil" }} />
       <Tabs.Screen name="galeria" options={{ title: "BarbieGalery" }} />
       <Tabs.Screen name="kaito" options={{ title: "Kaito" }} />
+      <Tabs.Screen name="tableros" options={{ title: "Tableros" }} />
     </Tabs>
   );
 }
